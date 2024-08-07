@@ -1,0 +1,34 @@
+<!-- activity_resources.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextResourceTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Resource Title" />
+
+    <EditText
+        android:id="@+id/editTextResourceLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Resource Link" />
+
+    <Button
+        android:id="@+id/buttonAddResource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Resource" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewResources"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="16dp" />
+
+</LinearLayout>

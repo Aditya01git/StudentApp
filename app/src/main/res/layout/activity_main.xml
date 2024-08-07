@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student App"
+        android:textSize="24sp"
+        android:textColor="@color/purple_500"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonTimetable"
+        style="@style/ButtonStyle"
+        android:text="Timetable Management" />
+
+    <Button
+        android:id="@+id/buttonHomework"
+        style="@style/ButtonStyle"
+        android:text="Homework Tracker" />
+
+    <Button
+        android:id="@+id/buttonResources"
+        style="@style/ButtonStyle"
+        android:text="Study Resources" />
+
+ <!--   <Button
+        android:id="@+id/buttonMentalHealth"
+        style="@style/ButtonStyle"
+        android:text="Mental Health Resources" />
+
+    <Button
+        android:id="@+id/buttonCollaboration"
+        style="@style/ButtonStyle"
+        android:text="Peer Collaboration" />
+
+    <Button
+        android:id="@+id/buttonTeacherCommunication"
+        style="@style/ButtonStyle"
+        android:text="Teacher Communication" />  -->
+
+</LinearLayout>

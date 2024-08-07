@@ -1,0 +1,29 @@
+<!-- res/layout/activity_homework.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey2"
+    android:padding="16dp"
+    tools:context=".HomeworkActivity">
+
+    <EditText
+        android:id="@+id/editTextHomework"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Homework Details" />
+
+    <Button
+        android:id="@+id/buttonAddHomework"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Homework" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewHomework"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
